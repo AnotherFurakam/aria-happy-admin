@@ -1,10 +1,10 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import ProductCrud from "./components/ProductCrud";
+import PostCrud from "./components/PostCrud";
 ---
 
 <Layout title="">
-  <ProductCrud client:load />
+  <PostCrud client:load />
 </Layout>
 <script>
   const isLogged = localStorage.getItem("login");
